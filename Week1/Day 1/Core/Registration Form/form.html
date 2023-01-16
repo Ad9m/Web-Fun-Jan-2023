@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" method="POST">
+    <div>
+        <label for="name">First Name :*
+            <input type="text" name="first" required>
+        </label>
+    </div>
+    <div>
+        <label for="name">Last Name :*
+            <input type="text" name="last" required>
+        </label>
+    </div>
+    <div>
+        <label for="name">Email address :*
+            <input type="email" name="email" required>
+        </label>
+    </div>
+    <div>
+        <label for="name">Password :*
+            <input type="password" name="pass" required>
+        </label>
+    </div>
+    <div>
+        <label for="name">Confirm Password:*
+            <input type="text" name="conf" required>
+        </label>
+    </div>
+    <div>
+        <label for="name">Birthday :
+            <input type="date" name="dob">
+        </label>
+    </div>
+    <p>Gender Identity:</p>
+    <input type="radio" name="gender" value="male"><label for="male">Male</label>
+    <input type="radio" name="gender" value="female"><label for="female">Female</label>
+    <input type="radio" name="gender" value="nb"><label for="nb">Non-binary</label>
+    <input type="radio" name="gender" value="not"><label for="not">I prefer not to answer</label>
+    <div>
+        <p>A short description about myself:</p>
+        <textarea name="desc" rows="3" cols="20">
+        </textarea>
+    </label>
+    <br><br>
+    </div>
+    <div>
+        <label for="lang">Favourite language:
+        <select name="lang">
+            <option value="js">JavaScript</option>
+            <option value="py">Python</option>
+        </select>
+    </label>
+    </div>
+    <input type="checkbox" name="updates"><label>Yes, I would like to receive periodic email updates</label>
+    <br><br>
+    <input type="submit" name="submit" value="Create Account">
+    <p>* Inicates a required field</p>
+</form>
+</body>
+</html>
