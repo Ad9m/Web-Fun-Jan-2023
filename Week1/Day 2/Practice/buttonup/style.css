@@ -1,0 +1,24 @@
+.srch{
+    background-color: white;
+    color:rgb(25, 150, 150);
+    border-color: rgb(25, 150, 150);
+    border-radius: 20px;
+    height: 20px;
+    width: 100px;
+}
+.plus{ 
+    border-radius: 50%;
+    background-color:rgba(16, 233, 222, 0.959);
+    color :white;
+    border:none;
+    font-size:20px;
+    height:30px;
+    width: 30px;
+}
+.acc{
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    background-color:blue;
+    color: white;
+    height:30px;
+    width:150px;
+}
