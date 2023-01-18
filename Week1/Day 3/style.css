@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.blue {
+    background-color: blue;
+    color:blue;
+    background-size:35px;
+    height:1000px;
+    width: 630px;
+    display:inline-block;
+}
+.blanc {
+    background-color: white;
+    color:white;
+    background-size: 35%;
+    height:1000px;
+    width: 630px;
+    display:inline-block;
+}
+.red{
+    background-color: red;
+    color:red;
+    background-size: 35%;
+    height:1000px;
+    width: 630px;
+    display:inline-block;
+}

@@ -26,7 +26,7 @@
     width: auto;
     background-color: red;
     display: inline-block;
-    
+    vertical-align: top;
 }
 .sub-content {
     min-height: 200px;
