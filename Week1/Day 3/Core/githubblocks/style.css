@@ -1,0 +1,36 @@
+h1{
+    text-align:center;
+    color:gray;
+    font-weight: bold;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+    margin: 20px;
+    padding: 20px;
+    height:200px;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:pink;
+    margin: 20px;
+    padding: 20px;
+    height:200px;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    height:200px;
+}
