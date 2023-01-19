@@ -1,0 +1,43 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-color: #17a2b8;
+    height: 125px;
+    width:750px;
+    margin-bottom: 100px;
+}
+
+.card{
+
+}
+.avatar{
+    position:absolute;
+    top:50px;
+    left:500px;
+    height:125px;
+    width:125px;
+}
+.icon{
+    height: 20px;
+}
+.bodyy{
+    padding: 40px;
+}
+.bodyy h3,bodyy h2,bodyy p,bodyy h1{
+    margin:20px 0px;
+    
+    
+    
+}
+a {
+    color: #3a81e6;
+}
