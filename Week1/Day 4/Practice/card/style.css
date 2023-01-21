@@ -15,10 +15,6 @@
     width:750px;
     margin-bottom: 100px;
 }
-
-.card{
-
-}
 .avatar{
     position:absolute;
     top:50px;
@@ -34,9 +30,6 @@
 }
 .bodyy h3,bodyy h2,bodyy p,bodyy h1{
     margin:20px 0px;
-    
-    
-    
 }
 a {
     color: #3a81e6;

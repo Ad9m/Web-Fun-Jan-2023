@@ -10,14 +10,15 @@ body {
     background-color: gray;
 }
 .nav-links{
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     list-style-type: none;
     justify-content: space-around;
 }
 .nav-title {
-    margin-left: 20px;
+
+    color:white;
 }
 .btn {
     height: 35px;
